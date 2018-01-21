@@ -7,7 +7,7 @@ scanf("%d%d",&low,&high);
 while(low<high)
 {
 flag=0;
-for(i=2;i<=low/2;i++)
+for(i=3;i<=low/3;i++)
 {
 if(low%i==0)
 {
