@@ -1,16 +1,24 @@
 #include<stdio.h>
 void main()
 {
-int num,rem,result=0;
-scanf("%d",&num);
-while(num!=0)
+int n1,n2,i,temp,num,rem
+printf("enter two number(interval)");
+scanf("%d%d",&n1,&n2);
+printf("armstrong number between %d and %d are",n1,n2);
+for(i=n1+1;i<n2;i++i)
 {
-rem=num%10;
-result=result+rem*rem*rem;
-num=num/10;
+temp=i;
+num=0
+while(temp!=0)
+{
+rem=(temp%10)
+num+=rem*rem*rem;
+temp!=10;
 }
-if(result==num)
-printf("armstrong");
-else
-printf("not armstrong num");
+if(i==num)
+{
+printf("%d",i);
+}
+}  
+return 0
 }
