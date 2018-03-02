@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() 
+int main(void) 
 {
 	int num;
 	printf("\n enter the number from 1 to 10");
@@ -7,34 +7,34 @@ int main()
 	switch(num)
 	{
 		case 1:
-		printf("\n one");
+		printf("\none");
 		break;
 		case 2:
-		printf("\n two");
+		printf("\ntwo");
 		break;
 		case 3:
-		printf("\n three");
+		printf("\nthree");
 		break;
 		case 4:
-		printf("\n four");
+		printf("\nfour");
 		break;
 		case 5:
-		printf("\n five");
+		printf("\nfive");
 		break;
 		case 6:
-		printf("\n six");
+		printf("\nsix");
 		break;
 		case 7:
-		printf("\n seven");
+		printf("\nseven");
 		break;
 		case 8:
-		printf("\n eight");
+		printf("\neight");
 		break;
 		case 9:
-		printf("\n nine");
+		printf("\nnine");
 		break;
 		case 10:
-		printf("\n ten");
+		printf("\nten");
 		break;
 		default:
 		printf("\n enter numbers from 1 to 10");
