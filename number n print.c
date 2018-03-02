@@ -7,38 +7,37 @@ int main()
 	switch(num)
 	{
 		case 1:
-		printf("\none");
+		printf("\n one");
 		break;
 		case 2:
-		printf("\ntwo");
+		printf("\n two");
 		break;
 		case 3:
-		printf("\nthree");
+		printf("\n three");
 		break;
 		case 4:
-		printf("\nfour");
+		printf("\n four");
 		break;
 		case 5:
-		printf("\nfive");
+		printf("\n five");
 		break;
 		case 6:
-		printf("\nsix");
+		printf("\n six");
 		break;
 		case 7:
-		printf("\nseven");
+		printf("\n seven");
 		break;
 		case 8:
-		printf("\neight");
+		printf("\n eight");
 		break;
 		case 9:
-		printf("\nnine");
+		printf("\n nine");
 		break;
 		case 10:
-		printf("\nten");
+		printf("\n ten");
 		break;
 		default:
 		printf("\n enter numbers from 1 to 10");
 	}
- 
 	return 0;
 }
